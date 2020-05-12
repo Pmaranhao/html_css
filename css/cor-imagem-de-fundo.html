@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		
+		<title>Cor e imagem de fundo</title>
+		<meta charset="utf-8">
+		
+		<style type="text/css">
+			
+			.fundo {
+				background-color: black;
+				color: white;
+			}
+
+			.fundo2 {
+				background: blue url('imagens/yoshi.png') no-repeat fixed  center top;
+			}
+
+			body {
+				background-image: url('imagens/yoshi.png');
+				background-repeat: no-repeat;
+				/*repeat
+				  repeat-x (repetição horizontal)
+				  repeat-y (repetição vertical)	*/
+				
+				background-attachment: fixed;
+				/* scroll*/  
+				
+				background-position: left bottom;
+				/* primeiro valor: left, center, right;
+				   segundo valor: top, center, bottom. */
+				
+			}
+
+
+		</style>
+
+	</head>
+	
+	<body>
+
+		<h1 class="fundo">Conteúdo de título 1</h1>
+		<h1 class="fundo2">Conteúdo de título 1<br/>
+		Conteúdo de título 1<br/>
+		Conteúdo de título 1<br/>
+		Conteúdo de título 1<br/>
+		Conteúdo de título 1<br/>
+		Conteúdo de título 1<br/>
+		Conteúdo de título 1<br/></h1>
+
+
+	</body>
+
+</html>
