@@ -1,0 +1,49 @@
+.conteudo{
+	background: blue;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+}
+
+.conteudo1{
+	background: red;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+	float: right;
+}
+
+.conteudo4{
+	background: red;
+	border: 1px solid gray;
+	width: 100px;
+	height: 100px;
+	float: left; /*podemos utilizar tamém o none*/
+}
+
+.outros-conteudos {
+	background: blue;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 10px;	
+}
+
+.conteudos-direita {
+	background: blue;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+	float: right;
+	margin: 10px;	
+}
+
+.limpar {
+	clear: both;
+}
+
+#principal {
+	border: 1px solid red;
+	background: gray;
+}

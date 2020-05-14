@@ -1,0 +1,29 @@
+.conteudo1 {
+	border: 1px solid red;
+	width: 150px;
+	padding-top: 20px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+}
+
+.conteudo2 {
+	border: 1px solid red;
+	width: 150px;
+	padding-bottom: 20px;
+	padding-left: 10px
+}	
+
+
+.conteudo3 {
+	border: 1px solid red;
+	width: 150px;
+	padding: 20px 5px 10px 15px;
+	margin-top: 20px;
+}
+
+.conteudo4 {
+	border: 1px solid red;
+	width: 150px;
+	padding: 20px 5px;
+	margin-top: 20px;
+}

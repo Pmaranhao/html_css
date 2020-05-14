@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Inline, block e inline-block </title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			
+			.borda {
+				border: 1px solid red;
+			}
+
+			.alterando-block {
+				display: inline;
+			}
+
+			.alterando-inline {
+				display: block;
+			}
+
+			.alterando{
+				display: inline-block;
+			}
+
+
+
+		</style>
+	
+
+	</head>
+	<body>
+
+		<h1>Inline</h1>
+		<span class="borda">Inline</span>
+		<span class="borda alterando-inline">Inline com alteraçao</span>
+
+		<h1>Block</h1>
+		<h3 class="borda">Bloco</h3>
+		<h3 class="borda alterando-block">Bloco alterado</h3>
+		
+		<h1>Inline-block</h1>
+		<span class="borda">Inline</span>
+		<span class="borda alterando">Inline com alteraçao para inline-block,continua ao lado enquanto o conteúdo for pequeno, se for um conteúdo muito grande para para linha de baixo. </span>
+
+	</body>
+</html>
