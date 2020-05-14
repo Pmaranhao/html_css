@@ -1,0 +1,18 @@
+body {
+	background: gray;
+}
+
+h1 {
+	font-family: "Courier New";
+}
+
+.texto {
+	color: white;
+	background: orange;
+}
+
+.imagem {
+	width: 150px;
+	height: 150px;
+	background: blue;
+}
