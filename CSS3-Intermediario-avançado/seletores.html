@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seletores</title>
+	<meta charset="utf-8">
+
+	<style type="text/css">
+	
+	/*Seletor universal	
+	*{
+		border: 1px solid red;
+	}*/
+
+	/*Seletor de texto 
+	h1 {
+		color: green;
+	}*/
+
+	/*Seletor classe
+	.verde {
+		color: green;
+	}
+
+	p.verde {
+		color: green;
+	}*/
+
+	/*Seletor de ID
+	#cabecalho {
+		border: 1px solid blue;
+	}*/
+
+	/*Seletor de filho
+	li > a {
+		color: green;
+		text-decoration: none;
+	}*/
+
+	/*Seletor de descendente 
+	li a{
+		color: red;
+	}*/
+
+	/*Seletor de irmão adjacente 
+	h1 + p {
+		color: red;
+	}*/
+
+	/* Seletor de irmão geral */
+	h1~p {
+		color: yellow;
+	}
+
+
+
+	</style>
+</head>
+<body>
+
+	<div>
+		<h1>Título</h1>
+		<p>
+			Esse é um parágrafo
+		</p>
+		<p>
+			Esse é um parágrafo2
+		</p>
+		<p>
+			Esse é um parágrafo3
+		</p>
+	</div>
+
+
+
+	<ul>
+		<li><span><a href="">Home</a></span></li>
+		<li><a href="">Contato</a></li>
+	</ul>
+	
+
+	<div id="cabecalho">
+		<h1>Título da página</h1>
+		<p>Parágrafo 1 da páginas</p>
+	</div>
+
+	<span class="verde">Teste span</span>
+	<p class="verde">Teste parágrafo</p>
+
+</body>
+</html>
